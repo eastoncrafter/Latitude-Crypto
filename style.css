@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.topheading {
+    font-size: 40px;
+    color: rgb(46, 48, 142);
+    text-align: center;
+}
+h1 {
+    color: rgb(46, 48, 142);
+    font-size: 30px;
+}
+
+
+}
+.whattype {
+    color: rgb(46, 48, 142);
+    font-size: 20px;
+}
+
+.myDiv{
+   text-align:center;
+   display: none;
+   padding: 20px;
+}
+.myDiv img{
+    margin: 0 auto;
+    padding: 10px
+}
+#type {
+    font-size: 30px;
+    width: 200px;
+    background-color: lightgrey;
+    color: rgb(46, 48, 142);
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: h-offset=5px, v-offset=5px, blur=5px, color=black;
+}
+.btcaddress {
+	text-align: center;
+    background: #ffdede;
+    padding: 6px 10px;
+    display: block;
+    width: 460px;
+    border: 1px solid #d47c7c;
+    margin: 8px auto;
+    border-radius: 30px;
+}
+
+.ethaddress {
+	text-align: center;
+    background: #ffdede;
+    padding: 6px 10px;
+    display: block;
+    width: 460px;
+    border: 1px solid #d47c7c;
+    margin: 8px auto;
+    border-radius: 30px;
+}
+.ltcaddress {
+	text-align: center;
+    background: #ffdede;
+    padding: 6px 10px;
+    display: block;
+    width: 460px;
+    border: 1px solid #d47c7c;
+    margin: 8px auto;
+    border-radius: 30px;
+}
+.soladdress {
+	text-align: center;
+    background: #ffdede;
+    padding: 6px 10px;
+    display: block;
+    width: 460px;
+    border: 1px solid #d47c7c;
+    margin: 8px auto;
+    border-radius: 30px;
+}

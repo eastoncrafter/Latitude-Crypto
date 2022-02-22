@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <title>Welcome to the Latitude Learning Cryptocurrency donation site!</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="heading">
+            <h1> <span class="whattype">What type of crypto do you want to donate?</span></h1>
+                <select id="type" name="type" focus="Select One">
+                    <option>Select One</option>
+                    <option value="BTC">Bitcoin</option>
+                    <option value="ETH">Ethereum</option>
+                    <option value="LTC">Litecoin</option>
+                    <option value="SOL">Solana</option>
+                </select>
+                <div id="showBTC" class="myDiv">
+                    <img src="./images/BTC.png" alt="Uh oh! Looks like the image could not be loaded!"/>
+                    <span class="btcaddress">bc1q80f6kshx0rqr6k4xlpfx5v69spzd06y9wqrcnt</span>
+                </div>
+                <div id="showETH" class="myDiv">
+                    <img src="./images/ETH.png" alt="Uh oh! Looks like the image could not be loaded!" />
+                    <span class="ethaddress">0x9D73Aa9D4892a0Dc47C9CEa62342fbcfB0Ff4641</span>
+                </div>
+                <div id="showLTC" class="myDiv">
+                    <img src="./images/LTC.png" alt="Uh oh! Looks like the image could not be loaded!" />
+                    <span class="ltcaddress">LMH5Yc5vEeBrAxGkujxbqPB2N4Bwt2UAEm</span>
+                </div>
+                <div id="showSOL" class="myDiv">
+                    <img src="./images/SOL.png" alt="Uh oh! Looks like the image could not be loaded!" />
+                    <span class="soladdress">DfkrHuHnDpviEEX2VrvDWF1ZFBgE1Nid5md5eGogzDZ8</span>
+                </div>
+                <script>
+                    $(document).ready(function(){
+                        $('#type').on('change', function(){
+                            var demovalue = $(this).val(); 
+                            $("div.myDiv").hide();
+                            $("#show"+demovalue).show();
+                        });
+                    });
+                    </script>
+            
+        </div>
+        
+    </body>
+</html>
